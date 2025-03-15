@@ -11,3 +11,4 @@ def home():
 def run_python():
     result = subprocess.run(["python3", "-c", "print('Executando Python via API')"], capture_output=True, text=True)
     return {"output": result.stdout}
+    
